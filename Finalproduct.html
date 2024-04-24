@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>WebManna</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Finalproduct.html"
+          ><img
+            src="C:\Users\rkarlay\Documents\Website\images\THE_ONE_WHO_SUSTAINS_ME__1_-removebg-preview.png"
+        /></a>
+        <div class="navLinks" id="NAVlinks">
+          <div class="container">
+            <label class="toggle">
+              <input type="checkbox" onclick="hideMenu()" />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#academic">Academics</a></li>
+            <li><a href="#hobbies">Hobbys</a></li>
+          </ul>
+        </div>
+        <div class="containerOff">
+          <label class="toggle">
+            <input type="checkbox" onclick="showMenu()" />
+            <span class="sliderOff"></span>
+          </label>
+        </div>
+      </nav>
+    </section>
+    <section class="backgroundImage_Frontpage"></section>
+    <div class="textBox">
+      <h1>Hey there, I'm Rose</h1>
+
+      <p>
+        I am a dedicated student, programmer, part-time worker,<br />
+        and full-time daughter,<br />
+        who excels in creating unique, user-friendly websites that captivate
+        consumers at first glance and foster enduring engagement, ultimately
+        driving business success.
+      </p>
+    </div>
+
+    <!-------------------------------------About Me-------------------------------------------------------------->
+    <section id="about" class="backgroundImage_Aboutpage">
+      <section class="AboutMe">
+        <h1>About Me</h1>
+        <p>Being an open book</p>
+
+        <div class="row">
+          <div class="childhood">
+            <h3>My childhood</h3>
+            <p>
+              Allow me to reintroduce myself: I am Rose-Elizabeth Chika Karlay,
+              my mother's second daughter and my father's fourth child. I spent
+              my childhood in Liberia, where I was resided by my father and
+              stepmother, Blatu, and numerous cousins until I was seven years
+              old. Contrary to the stereotype, Blatu was far from the wicked
+              stepmother depicted in Cinderella. She was a mother and a friend
+              to me. Eventually, I began spending more time at my biological
+              mother's home, where I discovered I had two additional sisters: my
+              older sister, Victoria, and my younger sister, Gloria.
+            </p>
+          </div>
+
+          <div class="childhood">
+            <h3>My Adolescence</h3>
+            <p>
+              At age 11, in 2017, my mother got a scholarship to study in
+              Germany and took my little sister and me along. During the
+              Lockdown in 2020, my mother believed it would be best for us to
+              stay in Germany, even after her graduation. Knowing that decision,
+              I studied hard to be fluent in the language, both in writing and
+              speaking, made lifelong friends, and finished my
+              Realschulabschluss with a 1.8-grade point average. As of today, I
+              am pursuing my Fachabitur in computer science, nearing the
+              completion of my first year of the two-year program.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!----------------------------------------------Projects------------------------------------------------------------>
+    <section id="project" class="backgroundImage_Projectspage">
+      <section class="Projects">
+        <h1>Past Projects</h1>
+        <p>A beginner's journey</p>
+
+        <section class="videoSection">
+          <video
+            id="video"
+            controls
+            poster="images/easter.png"
+            onended="videoEnded(this)"
+          >
+            <source src="easter.mp4" type="video/mp4" />
+            Your Browser does not support the video file 😔 This was a python
+            easter calculator project
+          </video>
+
+          <video
+            controls
+            poster="images/calculator.png"
+            onended="videoEnded(this)"
+          >
+            <source
+              src="Captures/calculator.mp4"
+              type="video/mp4"
+            />
+            Your Browser does not support the video file 😔 This was a python
+            calculator project
+          </video>
+
+          <video
+            controls
+            poster="images/FIZZBUZZ.png"
+            onended="videoEnded(this)"
+          >
+            <source
+              src="Captures/fizzBuzz.mp4"
+              type="video/mp4"
+            />
+            Your Browser does not support the video file 😔 This was a common
+            job interview Java project: FizzBuzz
+          </video>
+
+          <video
+            controls
+            poster="images/temperature (5).png"
+            onended="videoEnded(this)"
+          >
+            <source
+              src="Captures/temperatureConverter.mp4"
+              type="video/mp4"
+            />
+            Your Browser does not support the video file 😔 This was a python
+            temperature converter project
+          </video>
+        </section>
+      </section>
+    </section>
+
+    <!----------------------------------------------Academics---------------------------------------------------------------------------------->
+    <section id="academic" class="BGfootprint">
+      <section class="Academics">
+        <h1>Academics</h1>
+        <h2>Scholar</h2>
+
+        <div class="Academic_row">
+          <div class="schooling">
+            <h3>Elementary</h3>
+            <h4>2012-2019</h4>
+            <p>
+              In 3rd to 5th grade, I thrived in the drama club, sparking my love
+              for performing and storytelling. When I moved to Germany and
+              enrolled at Friedrich-Erbert-Schule, I repeated 5th grade to catch
+              up with the language, putting me a year behind. To improve my
+              German, I attended DaZ classes several times a week throughout 5th
+              and 6th grades. Despite the language hurdle, my subjects were
+              similar to those back home, just taught in German.
+            </p>
+          </div>
+
+          <div class="schooling">
+            <h2>High School</h2>
+            <h3>2020-2023</h3>
+            <p>
+              Transitioning to high school within the same institution, my
+              proficiency in the German language flourished. Gradually, my
+              reliance on DaZ classes diminished as I integrated more
+              effectively into mainstream education, earning grades alongside
+              native German students. Throughout my high school tenure, I
+              consistently excelled academically, proudly identifying as a
+              Realschulschülerin.
+            </p>
+          </div>
+
+          <div class="schooling">
+            <h2>Junior College</h2>
+            <h3>2023-Present</h3>
+            <p>
+              At my technical Fachschule, my academic focus narrowed primarily
+              to Informatics, aligning with my passion for the subject.
+              Nonetheless, my curriculum retains a well-rounded approach,
+              encompassing disciplines such as English, Economics, German,
+              Sports, and Ethics.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!------------------------------------------Hobbys--------------------------------------------------------------------------->
+
+    <section id="hobbies" class="Hobbys">
+      <h1>Hobbys</h1>
+      <h2>My free time</h2>
+
+      <div class="rowHobbys">
+        <div class="read">
+          <img
+            class="image"
+            src="images/reading-removebg-preview.png"
+          />
+          <p>
+            I enjoy reading books, and one of my favorites is "An Orchestra of
+            Minorities" by Chigozie Obioma, a Nigerian author.
+          </p>
+        </div>
+
+        <div class="sing">
+          <img
+            class="image"
+            src="images/singing-removebg-preview.png"
+          />
+          <p>
+            I may not have Mariah Carey's vocals, but when it comes to Hamilton,
+            I am singing my heart out.
+          </p>
+        </div>
+
+        <div class="draw">
+          <img
+            class="image"
+            src="images/drawing-removebg-preview.png"
+          />
+          <p>
+            If I had the courage to part with my art, I would pursue art as a
+            career. Creating realistic portraits of people is my passion.
+          </p>
+        </div>
+
+        <div class="code">
+          <img
+            class="image"
+            src="images/coding-removebg-preview.png"
+          />
+          <p>
+            Coding, especially Python, holds a special place in my heart.I'm
+            constantly amazed by the vast possibilities that open up when you
+            learn how to code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------JavaScript for Toggle Menu--------------------------------------------------------->
+    <script>
+      var NAVlinks = document.getElementById("NAVlinks");
+      function showMenu() {
+        NAVlinks.style.right = "0";
+      }
+      function hideMenu() {
+        NAVlinks.style.right = "-200px";
+      }
+    </script>
+    <!----------------JavaScript for poster reload--------------------------------------->
+    <script type="text/javascript">
+      function videoEnded(video) {
+        video.load();
+      }
+    </script>
+    <!----------------JavaScript for sticky navbar--------------------------------------->
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
