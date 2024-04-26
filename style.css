@@ -334,9 +334,10 @@ video {
   height: 300px;
   border-radius: 12px;
   margin-right: 12px;
+  transition: 0.3s all ease;
 }
 video:hover {
-  height: 360px;
+  transform: scale(1.1);
 }
 
 #poster {
